@@ -7,8 +7,9 @@ import static pl.com.bottega.commons.math.utilits.PrintFraction.print;
 public class Fraction {
     public static final Fraction ONE = new Fraction(1, 1);
     public static final Fraction ZERO = new Fraction(0, 1);
-    private int nominator;
-    private int denominator;
+    private int nominator, denominator;
+
+
     public Fraction(int nominator, int denominator) throws IllegalArgumentException {
         setNominator(nominator);
         setDenominator(denominator);
